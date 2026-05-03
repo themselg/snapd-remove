@@ -13,4 +13,4 @@ rm -rf /snap /var/snap /var/lib/snapd /var/cache/snapd /usr/lib/snapd
 apt install -y flatpak gnome-software gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-echo "Snaps removed and replaced with Flatpak. Reboot now"
+echo "snapd removed and replaced with flatpak. Reboot now"
