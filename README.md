@@ -9,3 +9,5 @@ cd snapd-remove && sudo bash snapd-remove.sh
 ```
 
 After it's finished, reboot.
+
+Removal of the ``~/snap`` directory must be done manually after the reboot.
